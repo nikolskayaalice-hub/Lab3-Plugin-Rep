@@ -1,3 +1,4 @@
+const vscode = require('registerContextAction');
 const vscode = require('vscode');
 const { AchievementService } = require('./src/achievements/service');
 const { registerAchievementsPanel } = require('./src/achievements/panel');
@@ -13,6 +14,7 @@ function activate(context) {
   registerHello(context);
   registerTimeConverter(context);
   registerAchievementsPanel(context, achievements);
+  registerContextAction(context);
 
   // Артём
   registerJoke(context);
