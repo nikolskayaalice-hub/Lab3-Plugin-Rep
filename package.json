@@ -1,0 +1,11 @@
+{
+  "name": "codevibe",
+  "displayName": "CodeVibe",
+  "description": "Геймификация разработки: ачивки, шутки и хорошее настроение",
+  "version": "0.0.1",
+  "publisher": "codevibe-team",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js"
+}
