@@ -22,7 +22,12 @@
         "key": "alt+shift+t",
         "when": "editorTextFocus"
       }
-    ]
+    ],
+    "menus": {
+      "editor/title": [
+        { "command": "codevibe.helloWorld", "group": "navigation@1" },
+        { "command": "codevibe.showAchievements", "group": "navigation@2" }
+      ]
+    }
   }
 }
-
