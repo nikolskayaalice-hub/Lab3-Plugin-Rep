@@ -6,11 +6,15 @@ const { registerTimeConverter } = require('./src/commands/timeConverter');
 
 function activate(context) {
     const achievements = new AchievementService(context);
-    
+
   // Егор
   registerHello(context);
   registerTimeConverter(context);
   registerAchievementsPanel(context, achievements);
+
+   // Артём
+  registerJoke(context);
+
 }
 
 function deactivate() {}
