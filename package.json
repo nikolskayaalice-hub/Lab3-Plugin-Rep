@@ -14,7 +14,8 @@
       { "command": "codevibe.convertTime", "title": "CodeVibe: Секунды → часы" },
       { "command": "codevibe.showAchievements", "title": "CodeVibe: Достижения", "icon": "$(star-full)" },
       { "command": "codevibe.joke", "title": "CodeVibe: Рассказать шутку" },
-      { "command": "codevibe.contextAction", "title": "CodeVibe: Действие из контекстного меню" }
+      { "command": "codevibe.contextAction", "title": "CodeVibe: Действие из контекстного меню" },
+      { "command": "codevibe.resetTimer", "title": "CodeVibe: Сбросить таймер" }
     ],
     "keybindings": [
       {
