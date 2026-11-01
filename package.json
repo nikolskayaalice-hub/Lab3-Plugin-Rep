@@ -27,6 +27,9 @@
       "editor/title": [
         { "command": "codevibe.helloWorld", "group": "navigation@1" },
         { "command": "codevibe.showAchievements", "group": "navigation@2" }
+      ],
+      "editor/context": [
+        { "command": "codevibe.contextAction", "group": "codevibe@1" }
       ]
     }
   }
