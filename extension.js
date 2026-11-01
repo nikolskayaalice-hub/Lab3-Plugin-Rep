@@ -1,6 +1,17 @@
 const vscode = require('vscode');
+const { AchievementService } = require('./src/achievements/service');
+const { registerAchievementsPanel } = require('./src/achievements/panel');
+const { registerHello } = require('./src/commands/hello');
+const { registerTimeConverter } = require('./src/commands/timeConverter');
 
-function activate(context) {}
+function activate(context) {
+    const achievements = new AchievementService(context);
+    
+  // Егор
+  registerHello(context);
+  registerTimeConverter(context);
+  registerAchievementsPanel(context, achievements);
+}
 
 function deactivate() {}
 
