@@ -15,6 +15,14 @@
       { "command": "codevibe.showAchievements", "title": "CodeVibe: Достижения", "icon": "$(star-full)" },
       { "command": "codevibe.joke", "title": "CodeVibe: Рассказать шутку" },
       { "command": "codevibe.contextAction", "title": "CodeVibe: Действие из контекстного меню" }
+    ],
+    "keybindings": [
+      {
+        "command": "codevibe.convertTime",
+        "key": "alt+shift+t",
+        "when": "editorTextFocus"
+      }
     ]
   }
 }
+
