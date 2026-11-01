@@ -22,7 +22,13 @@
 
 ## Скриншоты
 *демонстрация работы плагина*
+<img width="1280" height="706" alt="image" src="https://github.com/user-attachments/assets/9afbf116-b416-4a6b-be0f-2a6aa5f0271f" />
+
+*Kanban-доска*
 <img width="1280" height="607" alt="image" src="https://github.com/user-attachments/assets/f384867c-552a-4c5c-b27d-773b99de80bc" />
+<img width="1280" height="604" alt="image" src="https://github.com/user-attachments/assets/6b2020b9-0dc0-4b8a-a0a4-e1e3f9f3eece" />
+<img width="1280" height="569" alt="image" src="https://github.com/user-attachments/assets/2c835d09-070e-44b0-b6b3-1926d4d9a89c" />
+
 
 
 ## Инструкция по запуску❗️
