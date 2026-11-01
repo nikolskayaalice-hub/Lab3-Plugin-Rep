@@ -7,5 +7,14 @@
   "engines": { "vscode": "^1.85.0" },
   "categories": ["Other"],
   "activationEvents": ["onStartupFinished"],
-  "main": "./extension.js"
+  "main": "./extension.js",
+    "contributes": {
+    "commands": [
+      { "command": "codevibe.helloWorld", "title": "CodeVibe: Hello World", "icon": "$(smiley)" },
+      { "command": "codevibe.convertTime", "title": "CodeVibe: Секунды → часы" },
+      { "command": "codevibe.showAchievements", "title": "CodeVibe: Достижения", "icon": "$(star-full)" },
+      { "command": "codevibe.joke", "title": "CodeVibe: Рассказать шутку" },
+      { "command": "codevibe.contextAction", "title": "CodeVibe: Действие из контекстного меню" }
+    ]
+  }
 }
