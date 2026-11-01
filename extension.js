@@ -15,3 +15,14 @@ function activate(context) {
   registerCodeTimer(context);
   registerHello(context);
   registerTimeConverter(context);
+  registerAchievementsPanel(context, achievements);
+  registerContextAction(context);
+
+  // Артём
+  registerJoke(context);
+  registerCommitTracker(context, achievements);
+}
+
+function deactivate() {}
+
+module.exports = { activate, deactivate };
