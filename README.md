@@ -46,3 +46,7 @@
 *   **PM (Алиса):** Планирование, декомпозиция задач, ведение Kanban-доски, оформление документации.
 *   **Разработчик 1 (Егор):** Реализация UI-компонентов (кнопки, меню, окна) и уведомлений.
 *   **Разработчик 2 (Артём):** Реализация логики (трекеры действий, запросы к API, работа с Git.
+
+## Презентация
+(PPTX) https://eu.wps.com/cms/docs/d/cbDaekWb0r8SdZkC?platform=pc&refer=copylink
+(PDF) https://eu.wps.com/cms/docs/d/cbDaeogCznl4axVz?platform=pc&refer=copylink
